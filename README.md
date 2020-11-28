@@ -1,7 +1,7 @@
 # Response Rate Visualizer
 Visualize respone rates from text data (blogs, twitter, etc.)
 
-![Schedules of reinforcement](https://github.com/youssefabdelm/responseratevisualizer/blob/main/Schedules%20of%20Reinforcement.png)
+![Schedules of reinforcement](https://github.com/youssefabdelm/responseratevisualizer/blob/master/Schedules%20of%20Reinforcement.png)
 
 # Usage
 1. ```pip install -r requirements.txt```
@@ -12,7 +12,7 @@ Visualize respone rates from text data (blogs, twitter, etc.)
 # Example
 Originally, I made this for twitter data, but of course it also works for blogs. For example, here's my analysis of systems scientist George Mobus' blog.
 
-![https://questioneverything.typepad.com/](https://github.com/youssefabdelm/responseratevisualizer/blob/main/Top%2017%201%20terms%20for%20questioneverything%20latest%20occurence%20date%202020-03-19.png)
+![https://questioneverything.typepad.com/](https://github.com/youssefabdelm/responseratevisualizer/blob/master/Top%2017%201%20terms%20for%20questioneverything%20latest%20occurence%20date%202020-03-19.png)
 
 # How to read it
 
