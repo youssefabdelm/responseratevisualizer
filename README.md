@@ -10,7 +10,7 @@ Visualize respone rates from text data (blogs, twitter, etc.)
 4. Make sure the columns are sorted by descending order (latest dates first).
 
 # Example
-Originally, I made this for twitter data, but of course it also works for blogs. For example, here's my analysis of systems scientist George Mobus' blog.
+Originally, I made this for twitter data, but of course it also works for blogs. For example, here's my analysis of the amazing systems scientist George Mobus' blog.
 
 ![https://questioneverything.typepad.com/](https://github.com/youssefabdelm/responseratevisualizer/blob/master/Top%2017%201%20terms%20for%20questioneverything%20latest%20occurence%20date%202020-03-19.png)
 
