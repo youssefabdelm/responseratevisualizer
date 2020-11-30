@@ -20,4 +20,4 @@ Extremely roughly, you could say 'the steeper the lines, the higher the "interes
 
 Plateuing lines means "interest" is decaying.
 
-But heads up: this is oversimplifying it.
+But this is oversimplifying it.
