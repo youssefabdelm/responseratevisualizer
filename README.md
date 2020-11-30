@@ -21,3 +21,5 @@ Extremely roughly, you could say 'the steeper the lines, the higher the "interes
 Plateuing lines means "interest" is decaying.
 
 But this is oversimplifying it.
+
+Disclaimer: There's a list of words in the python script that I have added to exclude (such as stop words, but I've also included words which were not stop words which to me did not seem to convey much information in most cases as I was using this script. If you'd like to keep all words, I suggest looking up "toremove" and replacing those giant lists of words with an empty array.
