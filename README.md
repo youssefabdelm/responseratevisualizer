@@ -19,3 +19,5 @@ Originally, I made this for twitter data, but of course it also works for blogs.
 Extremely roughly, you could say 'the steeper the lines, the higher the "interest" ' 
 
 Plateuing lines means "interest" is decaying.
+
+But heads up: this is oversimplifying it.
