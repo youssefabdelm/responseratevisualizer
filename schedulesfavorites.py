@@ -78,7 +78,7 @@ if limityn == "y":
     latestdate = favorites['date'][0]
     limitnum = int(limit) + 1
     for index, user in zip(range(int(limitnum)), counted.keys()):
-        print(index, user)
+        #print(index, user)
         listofdatesforeveryuser = list(reversed(dictofusersanddates.get(user)))
         counteddates = OrderedDict(Counter(listofdatesforeveryuser))
         if not latestdate in counteddates.keys():
@@ -86,9 +86,9 @@ if limityn == "y":
         cumulativecounts = list(accumulate(list(counteddates.values())))
 
 
-        print(counteddates.keys())
+        #print(counteddates.keys())
         dateslist = [datetime.strptime(date, '%Y-%m-%d').date() for date in counteddates.keys()]
-        print(user, dateslist)
+        #print(user, dateslist)
 
 
         if int(limit) <= 17:
@@ -155,7 +155,7 @@ for user in counted.keys():
     cumulativecounts = list(accumulate(list(counteddates.values())))
 
     dateslist = [datetime.strptime(date, '%Y-%m-%d').date() for date in counteddates.keys()]
-    print(user, dateslist)
+    #print(user, dateslist)
     plt.figure(figsize=(16,9))
 
     plt.step(dateslist, cumulativecounts, linestyle='solid', linewidth=0.5, label=(user + '\n' + str(counted.get(user)) + ' ' + numlabel)) # in for d, u for first run, going to shove it back to see what happens
